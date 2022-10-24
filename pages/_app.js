@@ -1,7 +1,6 @@
-import "../styles/globals.css";
 import { WalletConnectionProvider } from "../services/WalletConnectProvider";
 
-import "../styles/tailwind.css";
+import "../styles/globals.css";
 import "@solana/wallet-adapter-react-ui/styles.css";
 
 function MyApp({ Component, pageProps }) {
